@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #parent {
+        width: 500px;
+        height: 500px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: red;
+    }
+
+    #child {
+        width: 200px;
+        height: 200px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        background-color: blue;
+    }
+
+    li {
+        padding: 1rem;
+        font-size: 1.5rem;
+        margin: 1rem auto;
+
+        background-color: aqua;
+        border-radius: 5px;
+    }
+
+    ul {
+        background-color: blueviolet;
+    }
+</style>
+<body>
+
+    <div id="parent">
+        <div id="child">
+            <button id="btn">Click Me</button>
+        </div>
+    </div>
+
+    <h1>Unordered List</h1>
+
+    <ul id="ul">
+        <li value="1">Element 1</li>
+        <li value="2">Element 2</li>
+        <li value="3">Element 3</li>
+        <li value="4">Element 4</li>
+        <li value="5">Element 5</li>
+    </ul>
+
+    <script src="dom.js"></script>
+</body>
+</html>
